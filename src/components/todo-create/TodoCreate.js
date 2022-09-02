@@ -1,6 +1,6 @@
 import './TodoCreate.css'
 
-const TodoCreate = ()=>{
+const TodoCreate = (props)=>{
 
     const handleSubmit = (event)=>{
         event.preventDefault()
@@ -10,7 +10,8 @@ const TodoCreate = ()=>{
             title: 'lear react'
         }
 
-        console.log(newTodo)
+        props.onCreateTodo(newTodo)
+        // console.log(newTodo)
     }
 
     return (
