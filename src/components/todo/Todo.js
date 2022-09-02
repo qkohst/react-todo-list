@@ -19,7 +19,7 @@ const Todo = ()=>{
 
     return (
         <div>
-            <h3>Todo List</h3>
+            <h3>TODO LIST</h3>
             <TodoCreate onCreateTodo={eventCreateTodo}/>
             <TodoList dataTodos={getTodos}/>
         </div>

@@ -2,3 +2,19 @@
     margin: 2rem;
     text-align: center;
 }
+
+.form-input{
+    border: 1px solid turquoise;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.btn-submit{
+    border: 1px solid turquoise;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: turquoise;
+    color: white;
+}

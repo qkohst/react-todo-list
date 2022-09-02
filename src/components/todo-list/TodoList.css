@@ -1,5 +1,9 @@
+ul{
+  list-style-type: none;
+}
 ul > li {
   border: 1px solid turquoise;
   padding: 10px;
   margin: 10px;
+  border-radius: 4px;
 }
